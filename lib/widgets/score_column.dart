@@ -11,7 +11,7 @@ class ScoreColumn extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text(
+          const Text(
             "Congratiolation Your Score Is : ",
             style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
           ),
