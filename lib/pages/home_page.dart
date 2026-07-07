@@ -48,7 +48,10 @@ class _MyHomeSceenState extends State<HomeSceen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Padding(
-                      padding: EdgeInsets.symmetric(vertical: 20),
+                      padding: EdgeInsets.symmetric(
+                        vertical: 30,
+                        horizontal: 16,
+                      ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -62,7 +65,9 @@ class _MyHomeSceenState extends State<HomeSceen> {
                           SizedBox(height: 10),
                           Text(
                             "Answer And Get Points",
-                            style: Theme.of(context).textTheme.bodyLarge,
+                            style: Theme.of(
+                              context,
+                            ).textTheme.bodyLarge!.copyWith(fontSize: 20),
                           ),
                         ],
                       ),
