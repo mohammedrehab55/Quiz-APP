@@ -3,14 +3,14 @@ import 'package:quiz_app/models/cls_questions.dart';
 import 'package:quiz_app/widgets/answer_button.dart';
 import 'package:quiz_app/widgets/score_column.dart';
 
-class Home extends StatefulWidget {
-  const Home({super.key});
+class HomeSceen extends StatefulWidget {
+  const HomeSceen({super.key});
 
   @override
-  State<Home> createState() => _MyHomeState();
+  State<HomeSceen> createState() => _MyHomeSceenState();
 }
 
-class _MyHomeState extends State<Home> {
+class _MyHomeSceenState extends State<HomeSceen> {
   int qIndex = 0;
   int? selectedAnswerIndex;
   bool isNextQuestions = true;

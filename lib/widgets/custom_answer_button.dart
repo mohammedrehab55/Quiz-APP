@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_app/models/cls_answer.dart';
+import 'package:quiz_app/models/answer_model.dart';
 
 class AnswerButton extends StatelessWidget {
   ClsAnswer answer;
