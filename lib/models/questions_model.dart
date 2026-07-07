@@ -1,4 +1,4 @@
-import 'package:quiz_app/models/cls_answer.dart';
+import 'package:quiz_app/models/answer_model.dart';
 
 class Question {
   final String title;

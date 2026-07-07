@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_app/models/cls_questions.dart';
-import 'package:quiz_app/widgets/answer_button.dart';
+import 'package:quiz_app/models/questions_model.dart';
+import 'package:quiz_app/widgets/custom_answer_button.dart';
 import 'package:quiz_app/widgets/score_column.dart';
 
 class HomeSceen extends StatefulWidget {
