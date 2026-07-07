@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class ScoreColumn extends StatelessWidget {
   final int questionScore;
   final VoidCallback resetcallback;
-  ScoreColumn({required this.questionScore, required this.resetcallback});
+  const ScoreColumn({
+    super.key,
+    required this.questionScore,
+    required this.resetcallback,
+  });
   @override
   Widget build(BuildContext context) {
     return Center(

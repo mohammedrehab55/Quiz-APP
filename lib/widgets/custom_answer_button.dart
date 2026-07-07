@@ -2,14 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:quiz_app/models/answer_model.dart';
 
 class AnswerButton extends StatelessWidget {
-  ClsAnswer answer;
-  VoidCallback answerChossenCallBack;
-  bool isChoosen;
-  AnswerButton({
+  final ClsAnswer answer;
+  final VoidCallback answerChossenCallBack;
+  final bool isChoosen;
+  const AnswerButton({
+    super.key,
     required this.answer,
     required this.isChoosen,
     required this.answerChossenCallBack,
   });
+  @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(16.0),

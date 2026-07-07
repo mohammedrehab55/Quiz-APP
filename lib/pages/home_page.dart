@@ -53,7 +53,7 @@ class _MyHomeSceenState extends State<HomeSceen> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            "${questions[qIndex].title}",
+                            questions[qIndex].title,
                             style: TextStyle(
                               fontSize: 25,
                               fontWeight: FontWeight.bold,
@@ -90,12 +90,12 @@ class _MyHomeSceenState extends State<HomeSceen> {
                             increaseIndex();
                             selectedAnswerIndex = null;
                           },
-                          child: Text(
-                            "Next",
-                            style: TextStyle(color: Colors.white),
-                          ),
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.black,
+                          ),
+                          child: const Text(
+                            "Next",
+                            style: TextStyle(color: Colors.white),
                           ),
                         ),
                       ),
